@@ -1,4 +1,4 @@
 <!-- _sidebar.md -->
 
 * [Home](/)
-* [Der Computer ist abgestürzt](Der Computer ist abgestürzt.md)
+* [Der Computer ist abgestürzt](https://google.de)
