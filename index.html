@@ -8,11 +8,18 @@
 </head>
 <body>
   <div id="app"></div>
-  <script>
-  window.$docsify = {
-    loadSidebar: true
-  }
-</script>
+    <script>
+    window.$docsify = {
+      loadSidebar: true,
+      subMaxLevel: 4,
+      pagination: {
+        previousText: 'Vorheriges',
+        nextText: 'Nächstes',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+    }
+  </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- Pagination -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
